@@ -21,7 +21,7 @@ const Contact = () => {
                     <li>
                         <a
                             id="linkedin-icon"
-                            onclick = {() => handleLink("https://www.linkedin.com/in/jessica-tran-36534b214/")}
+                            onClick={() => handleLink("https://www.linkedin.com/in/jessica-tran-36534b214/")}
                             > 
                     <i className="bx bxl-linkedin"></i>
                     </a>
@@ -29,7 +29,7 @@ const Contact = () => {
                     <li>
                         <a
                             id="github-icon"
-                            onclick = {() => handleLink("github.com/jessikea")}
+                            onClick={() => handleLink("https://github.com/jessikea")}
                             >
                     <i className="bx bxl-github"></i>
                     </a>

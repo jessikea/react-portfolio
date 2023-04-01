@@ -10,27 +10,17 @@ import "../App.css";
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("about");
 
-  const renderPage = () => {
-    if (currentPage === "about") {
-      return <About />;
-    }
-    if (currentPage === "portfolio") {
-      return <Portfolio />;
-    }
-    if (currentPage === "contact") {
-      return <Contact />;
-    }
-    if (currentPage === "resume") {
-      return <Resume />;
-    }
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
+  console.log(currentPage);
   return (
     <div>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      {/* passing the currentPage from state  as prop and the function to update it */}
+      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {currentPage === "about" && (
+        <About currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      )}
+      {currentPage === "portfolio" && <Portfolio />}
+      {currentPage === "contact" && <Contact />}
       <Footer />
     </div>
   );
