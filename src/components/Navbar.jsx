@@ -12,7 +12,7 @@ function Navbar({ currentPage, setCurrentPage }) {
         onClick={() => setCurrentPage("about")}
         className={currentPage === "about" ? "nav-link active" : "nav-link"}
       >
-        Jess Tran
+        jtran
       </a>
       <ul className="navbar-list">
         {links.map((link, index) => (

@@ -3,7 +3,7 @@ import { project1, project2, project3, project4, project5} from "./assets"
 const projects= [
     {
         id: 1,
-        name: "StudyBuddy",
+        name: "Study Buddy",
         tech: "JavaScript, Html",
         description: "StuddyBuddy is a quiz app that allows users to play a quiz game and save their scores. The StuddyBuddy used two APIs, a quiz API and a dictionary API.",
         image: project1,
@@ -21,7 +21,7 @@ const projects= [
     },
     { 
         id: 3,
-        Name: "StuddyBuddies",
+        name: "Studdy Buddies",
         tech: "JavaScript, Express, Node, MySQL, Sequelize, Handlebars, CSS",
         description: "StudyBuddies was a extension to StudyBuddy. Bringing in 2 new buddies such as Flash, a flashcard buddy, and Brainstorm, a buddy that allows users to post and comment on ideas.",
         image: project3,

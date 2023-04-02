@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
-import Resume from "./Resume";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../App.css";
