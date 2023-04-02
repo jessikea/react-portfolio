@@ -19,8 +19,9 @@ Personal portfolio V2 with React.
 
 - Deployed link: https://jessikea.github.io/react-portfolio/
 
-![portfolio screenshot](./src/assets/React%20Portfolio%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%204_1_2023%2011_07_13%20PM.png)
-
+![portfolio screenshot](./src/assets/about.png)
+![Contacts](./src/assets/contact.png)
+![Projects](./src/assets/projects.png)
 ## License
 
 MIT
