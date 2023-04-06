@@ -39,12 +39,12 @@ const projects= [
     },
     {
         id: 5,
-        name:"Work Day Scheduler",
-        tech: "JavaScript, jQuery, CSS",
-        description: "Work Day Scheduler is a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+        name:"PokeDecks",
+        tech: "JavaScript, React, CSS",
+        description: "PokeDecks is a fun application that allows users to search for their favorite Pokemon and create a deck of cards. The application uses the PokeAPI to retrieve Pokemon data.  The application uses local storage to save the user's deck." ,
         image: project5,
-        github: "https://github/jessikea/workday-schedule-challenge",
-        deployed: "https://jessikea.github.io/workday-schedule-challenge/"
+        github: "https://github.com/ssnakeoil/pokeDecks",
+        deployed: "https://pokedecks.herokuapp.com/"
     }
 ]
 
