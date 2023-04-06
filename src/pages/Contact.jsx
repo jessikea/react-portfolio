@@ -22,7 +22,7 @@ const Contact = () => {
                     <li>
                         <button
                             id="linkedin-icon"
-                            onClick={() => handleLink("https://www.linkedin.com/in/jessica-tran-36534b214/")}
+                            onClick={() => handleLink("https://www.linkedin.com/in/jessikea/")}
                             aria-label="Linkedin profile"
                         > 
                             <i className="bx bxl-linkedin"></i>
